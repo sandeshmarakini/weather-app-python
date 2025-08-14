@@ -14,7 +14,7 @@ def get_weather():
     city = request.args.get('city')
 
     if not bool(city.strip()):
-        city = "Chicago"
+        city = "Bangalore"
 
     weather_data = get_current_weather(city)
 
